@@ -4,5 +4,5 @@ Projeto desenvolvido em C utilizando o framework ESP-IDF para sistema de ilumina
 
 ## Equipe
 
-Lucas Nogueira Aiello
-Luiza Bruna Apolinario Ribeiro
+- Lucas Nogueira Aiello
+- Luiza Bruna Apolinario Ribeiro
