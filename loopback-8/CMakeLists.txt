@@ -1,6 +1,3 @@
-# The following five lines of boilerplate have to be in your project's
-# CMakeLists in this exact order for cmake to work correctly
-cmake_minimum_required(VERSION 3.22)
-
-include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(loopback-8)
+idf_component_register(SRCS "main.c"
+                    INCLUDE_DIRS "."
+                    REQUIRES driver esp_driver_gpio esp_timer esp_driver_uart)
